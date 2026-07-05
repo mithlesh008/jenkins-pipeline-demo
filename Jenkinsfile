@@ -34,7 +34,7 @@ pipeline {
 
                 echo "Running tests..."    
 
-                sh 'pytest'
+                sh 'python3 -m pytest'
 
             }
 
