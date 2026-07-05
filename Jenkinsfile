@@ -46,7 +46,7 @@ pipeline {
 
                 echo "Building the application..."
 
-                sh 'python app.py'
+                sh 'python3 app.py'
 
             }
 
